@@ -1,9 +1,9 @@
-import Hello from "components/Hello";
+import UseStatehook from "components/UseStatehook";
 function App() {
   return (
-    <>
-      <Hello />
-    </>
+    <div className="mx-auto w-6/12 space-y-4 py-10">
+      <UseStatehook />
+    </div>
   );
 }
 
